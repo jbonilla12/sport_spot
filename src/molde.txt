@@ -1,0 +1,43 @@
+<NavbarComp/>
+      <div className="container mt-5">
+        <div className="tab-content" id="nav-tabContent">
+          <Switch>
+            <Route path="/" exact>
+              <Inicio/>
+            </Route>
+            <Route path="/ligas">
+              <Liga/>
+            </Route>
+            <Route path="/equipos">
+              <Equipo/>
+            </Route>
+            <Route path="/parches">
+              <Parche/>
+            </Route>
+            <Route path="/tallas">
+              <Talla/>
+            </Route>
+            <Route path="/mangas">
+              <Manga/>
+            </Route>
+            <Route path="/versiones">
+              <Version/>
+            </Route>
+            <Route path="/estado-ventas">
+              <Estado_Venta/>
+            </Route>
+            <Route path="/genero-deportivo">
+              <Genero_Deportivo/>
+            </Route>
+            <Route path="/temporadas">
+              <Temporada/>
+            </Route>
+            <Route path="/generos">
+              <Genero/>
+            </Route>
+            <Route path="/productos">
+              <Producto/>
+            </Route>
+          </Switch>
+        </div>
+    </div>
